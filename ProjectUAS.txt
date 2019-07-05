@@ -1,0 +1,25 @@
+Project UAS
+--------------------
+1. Buatlah modul 'Kategori' di dashboard > nav new V
+   - Tambah Kategori v
+   - Edit Kategori
+   - Hapus Kategori	v
+2. Buatlah modul 'Users' di dashboard > nav new V
+   - Tambah User v
+   - Edit User
+   - Hapus User v
+3. Modifikasilah tabel user, tambahkan V
+   field: role -> admin, operator
+4. Buatlah pengaturan hak akses halaman V
+   berdasarkan role: > pake nav dipisah atau controller atau selainnya, if dengan session 
+   - admin -> bisa mengakses semua menu
+              (dashboard, tambah buku,  
+              kategori, users, data buku)   
+   - operator -> hanya bisa akses menu:
+                 (dashboard, data buku)
+                 
+5. Tambahkan keterangan jumlah data buku v
+   di halaman data buku > rekapan semuanya
+6. Tambahkan fitur edit dan view data buku v
+   di halaman data buku 
+7. Lengkapi fitur paging pada data buku, belajar di userguide v
